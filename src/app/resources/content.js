@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Mohamed",
+  lastName: "Yosuf",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  role: "Embedded Engineer",
+  avatar: "/images/profile.jpeg",
+  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Tamil"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -34,7 +34,7 @@ const social = [
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/mohamed-yosuf/",
   },
   {
     name: "X",
@@ -52,10 +52,10 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Embedded Engineer and Web Designer</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
+      I'm Yosuf, a Web Designer at <InlineCode>Trivandram</InlineCode>, where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -81,8 +81,8 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
+        Yosuf is a Trivandram-based Web designer with a passion for transforming complex challenges
+        into simple, elegant design solutions. His work spans digital interfaces, interactive
         experiences, and the convergence of design and technology.
       </>
     ),
@@ -92,23 +92,23 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Web designing",
+        timeframe: "2024 - present",
+        role: "Business analyst",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Analysed company depths and project opertunities over the world
+            found vast opertunities in dubai.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            collabed with TLF dubai and got many projects by them
+            and started collab with VR animation designers.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
+            src: "/images/projects/project-01/cover-01.png",
             alt: "Once UI Project",
             width: 16,
             height: 9,
@@ -116,17 +116,16 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Acutro Technologies",
+        timeframe: "2023 - 2024",
+        role: "Embedded Engineer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+           Created vast amount of projects and started collab with G-Tech computer Education
+            and raised project engagements with other companies.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Conducted webinars to colleges and schools to create awareness about Robotics.
           </>,
         ],
         images: [],
@@ -138,12 +137,8 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "St. Xaviers Catholic College of Engineering",
+        description: <>Electronics and communication engineering.</>,
       },
     ],
   },
@@ -152,12 +147,12 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Arduino",
+        description: <>Able to prototype in Arduino IDE with unnatural speed.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
+            src: "/images/projects/project-01/cover-02.png",
             alt: "Project image",
             width: 16,
             height: 9,
