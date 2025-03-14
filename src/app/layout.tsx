@@ -17,6 +17,11 @@ export async function generateMetadata() {
     metadataBase: new URL(`https://${baseURL}`),
     title: home.title,
     description: home.description,
+    icons: {
+      icon: "/favicon.png", // Ensure this matches your favicon file name
+      shortcut: "/favicon.png",
+      apple: "/favicon.png",
+    },
     openGraph: {
       title: `${person.firstName}'s Portfolio`,
       description: "Portfolio website showcasing my work.",
@@ -38,6 +43,7 @@ export async function generateMetadata() {
     },
   };
 }
+
 
 const primary = Inter({
   variable: "--font-primary",
